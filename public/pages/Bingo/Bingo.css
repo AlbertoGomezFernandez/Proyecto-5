@@ -1,0 +1,60 @@
+.bingo{
+  margin-top: 5%;
+  padding: 20px;
+  background-color: rgb(208, 190, 163);
+  width: 80%;
+  min-height: 400px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.divButton{
+  display: flex;
+  gap: 10px;
+}
+
+.bingoNumberDiv{
+  width: 50px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bingoNumber{
+  font-size: 2rem;
+}
+
+.bingoCard{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.number{
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  width: 32px;
+  align-self: center;
+}
+
+.pause{
+  padding: 5px;
+}
+
+@media (max-width: 770px) {
+  .app.bingoGame{
+    height: 100%;
+  }
+}
